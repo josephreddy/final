@@ -1,0 +1,16 @@
+
+
+<h2>Update Student</h2>
+
+<p *ngIf="!exist">
+  student does not exist
+</p>
+
+<form id="formNewStudent" name="formNewStudent" #studentData="ngForm" (ngSubmit)="updatestudent(studentData.value)">
+  <label>Student Name : </label> <input type="text" name="name" id="name" [(ngModel)] ="data.name" ngModel><br>
+  <label>Course : </label> <input type="text" name="coursename" id="coursename" [(ngModel)] ="data.coursename" ngModel><br>
+  <label>Place: </label> <input type="text" name="place" id="place" [(ngModel)] ="data.place" ngModel><br>
+  <label>Project : </label> <input type="text" name="projectname" id="projectname" [(ngModel)] ="data.projectname" ngModel><br>
+  <input type="submit" value="update Student">
+    
+</form>

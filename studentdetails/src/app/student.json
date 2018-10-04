@@ -1,0 +1,18 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "name": "joseph",
+      "coursename": "java",
+      "place": "hyd",
+      "projectname": "sample"
+    },
+    {
+      "name": "siva",
+      "coursename": "js",
+      "place": "gnt",
+      "projectname": "run",
+      "id": 2
+    }
+  ]
+}
